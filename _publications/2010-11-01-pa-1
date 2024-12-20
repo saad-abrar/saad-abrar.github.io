@@ -1,0 +1,13 @@
+---
+title: "Enhancing short-term crime prediction with human mobility flows and deep learning architectures"
+collection: publications
+category: journal
+permalink: https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00363-5
+excerpt: "We developed an enhanced approach to short-term crime prediction by integrating human mobility flows with deep learning architectures."
+date: 2022-12-01
+venue: "EPJ Data Science"
+paperurl: "http://saad-abrar.github.io/files/epj_2022.pdf"
+citation: "Wu, J., Abrar, S.M., Awasthi, N., Frias-Martinez, E. & Frias-Martinez, V. (2022). Enhancing short-term crime prediction with human mobility flows and deep learning architectures. EPJ Data Science, 11(1), p.53."
+---
+
+This study explores the integration of human mobility flows with deep learning architectures to enhance short-term crime prediction accuracy. We developed and evaluated several novel architectures that combine spatial, temporal, and mobility features. Our results demonstrate significant improvements in prediction accuracy compared to traditional approaches, particularly for specific crime types and temporal patterns. The study also examines the relative importance of different mobility features and their impact on prediction performance across various urban contexts.

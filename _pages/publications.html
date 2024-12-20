@@ -13,14 +13,21 @@ author_profile: true
 {% endif %} {% include base_path %}
 
 <div class="archive">
-  {% for post in site.publications reversed %}
+  {% assign grouped_publications = site.publications | group_by_exp: "pub",
+  "pub.date | date: '%Y'" | sort: "name" | reverse %} {% for year in
+  grouped_publications %}
+  <h2>{{ year.name }}</h2>
+  {% for post in year.items %}
   <div class="archive__item">
-    <div class="archive__item-excerpt">
-      * {{ post.citation }} {% if post.paperurl %} [<a
-        href="{{ post.paperurl }}"
-        >PDF</a
-      >] {% endif %}
+    <div
+      class="archive__item-excerpt"
+      style="margin-left: 20px; text-indent: -20px"
+    >
+      * {{ post.citation | replace: "Abrar, S. M.", "<strong
+        >Abrar, S. M.</strong
+      >" | replace: "Abrar, S.", "<strong>Abrar, S.</strong>" }} {% if
+      post.paperurl %} [<a href="{{ post.paperurl }}">PDF</a>] {% endif %}
     </div>
   </div>
-  {% endfor %}
+  {% endfor %} {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Saad Mohammad Abrar"
 author_profile: true
 redirect_from:
   - /about/
@@ -8,18 +8,6 @@ redirect_from:
 ---
 
 Hi, I am Saad! I am a PhD Candidate at University of Maryland at College Park working with [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) at the [Urban Computing Lab](https://www.urbancomputinglab.org/). My research interests spans across applied machine learning, human mobility and data science for social good specifically focusing on urban contexts. Previously, I've completed my M.S. in Computer Science from UMD and my undergraduate studies (BSc in Computer Science and Engineering) at Bangladesh University of Engineering and Technology (BUET).
-
----
-
-permalink: /
-title: "Saad Mohammad Abrar - Research in Urban Computing and Data Science"
-author_profile: true
-redirect_from:
-
-- /about/
-- /about.html
-
----
 
 # About Me
 

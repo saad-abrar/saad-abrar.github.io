@@ -1,7 +1,7 @@
 ---
 title: "Analysis of performance improvements and bias associated with the use of human mobility data in covid-19 case prediction models"
 collection: publications
-permalink: /publication/2023-12-06-mobility-covid-prediction
+permalink: https://dl.acm.org/doi/pdf/10.1145/3616380
 date: 2023-12-06
 venue: "ACM Journal on Computing and Sustainable Societies"
 authors: <b> Abrar, S.M.</b> , Awasthi, N., Smolyak, D., & Frias-Martinez, V. (2023). 

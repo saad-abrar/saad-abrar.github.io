@@ -19,11 +19,11 @@ Previously, I completed my M.S. in Computer Science from UMD (2023) and my under
 
 My research primarily investigates three critical areas:
 
-1. **Impact of Mobility Data on COVID-19 Predictions**: Evaluating how human mobility data affects the accuracy of COVID-19 case predictions and examining potential biases in these predictions across different demographic groups.
+1. **Impact of Mobility Data in Predictive Modeling**: Evaluating how human mobility data affects the accuracy of COVID-19 case predictions and examining potential biases in these predictions across different demographic groups.
 
 2. **Fairness in COVID-19 Forecasting**: Developing frameworks to audit the fairness of COVID-19 prediction models across various social determinants, with a particular focus on the CDC's Forecast Hub models.
 
-3. **Economic Activity and Mobility Patterns**: Investigating the relationship between mobility data and economic activity, particularly focusing on small business resilience during and after the COVID-19 pandemic.
+3. **Economic Activity and Mobility Patterns**: Investigating the causal relationship between mobility data and economic activity, particularly focusing on small business resilience during and after the COVID-19 pandemic.
 
 # Recent Publications
 

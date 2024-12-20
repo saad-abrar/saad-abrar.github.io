@@ -6,7 +6,7 @@ permalink: /publication/2023-04-08-crime-prediction-fairness
 date: 2023-04-08
 venue: "Computers, Environment and Urban Systems"
 paperurl: "http://saad-abrar.github.io/files/ceus_2023.pdf"
-citation: "Wu, J., **Abrar, S. M.**, Awasthi, N., &amp; Frias-Martinez, V. (2023). Auditing the fairness of place-based crime prediction models implemented with deep learning approaches. Computers, Environment and Urban Systems, 102, 101967."
+citation: "Wu, J., <b>Abrar, S. M.</b>, Awasthi, N., &amp; Frias-Martinez, V. (2023). Auditing the fairness of place-based crime prediction models implemented with deep learning approaches. Computers, Environment and Urban Systems, 102, 101967."
 ---
 
 We conducted a comprehensive fairness audit of deep learning-based crime prediction models, examining potential biases and disparities in prediction accuracy across different demographic groups and neighborhood characteristics.

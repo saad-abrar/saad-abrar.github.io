@@ -5,133 +5,204 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-<div class="wordwrap">
-  You can also find my articles on
-  <a href="https://scholar.google.com/citations?user=YHH9VjkAAAAJ&hl=en"
-    >my Google Scholar profile</a
-  >.
-</div>
-{% endif %} {% include base_path %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publications - Saad Mohammad Abrar</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+      .section {
+        margin-bottom: 40px;
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      h2 {
+        color: #34495e;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+        margin-top: 0;
+      }
+      .publication {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+      }
+      .publication:last-child {
+        border-bottom: none;
+      }
+      .publication-title {
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 8px;
+      }
+      .publication-authors {
+        color: #666;
+        margin-bottom: 5px;
+      }
+      .publication-venue {
+        color: #666;
+        font-style: italic;
+      }
+      .google-scholar {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
 
-<!--
+  {% if site.author.googlescholar %}
+  <div class="wordwrap">
+    You can also find my articles on
+    <a href="https://scholar.google.com/citations?user=YHH9VjkAAAAJ&hl=en"
+      >my Google Scholar profile</a
+    >.
+  </div>
+  {% endif %} {% include base_path %}
+
+  <!--
 <div class="archive">
   {% for post in site.publications reversed %} {% include archive-single.html %}
   {% endfor %}
 </div>
 -->
 
-<div class="section">
-  <h2>Journal Articles</h2>
+  <div class="section">
+    <h2>Journal Articles</h2>
 
-  <div class="publication">
-    <div class="publication-title">
-      Analysis of performance improvements and bias associated with the use of
-      human mobility data in covid-19 case prediction models
+    <div class="publication">
+      <div class="publication-title">
+        Analysis of performance improvements and bias associated with the use of
+        human mobility data in covid-19 case prediction models
+      </div>
+      <div class="publication-authors">
+        <b>S.M. Abrar</b>, Awasthi, N., Smolyak, D., & Frias-Martinez, V. (2023)
+      </div>
+      <div class="publication-venue">
+        ACM Journal on Computing and Sustainable Societies, 1(2), 1-36
+      </div>
     </div>
-    <div class="publication-authors">
-      <b>S.M. Abrar</b>, Awasthi, N., Smolyak, D., & Frias-Martinez, V. (2023)
+
+    <div class="publication">
+      <div class="publication-title">
+        Using COVID-19 vaccine attitudes on Twitter to improve vaccine uptake
+        forecast models in the United States: infodemiology study of Tweets
+      </div>
+      <div class="publication-authors">
+        Sigalo, N., Awasthi, N., <b>S.M. Abrar</b>, & Frias-Martinez, V. (2023)
+      </div>
+      <div class="publication-venue">JMIR Infodemiology, 3(1), e43703</div>
     </div>
-    <div class="publication-venue">
-      ACM Journal on Computing and Sustainable Societies, 1(2), 1-36
+
+    <div class="publication">
+      <div class="publication-title">
+        Auditing the fairness of place-based crime prediction models implemented
+        with deep learning approaches
+      </div>
+      <div class="publication-authors">
+        Wu, J., <b>S.M. Abrar</b>, Awasthi, N., & Frias-Martinez, V. (2023)
+      </div>
+      <div class="publication-venue">
+        Computers, Environment and Urban Systems, 102, 101967
+      </div>
+    </div>
+
+    <div class="publication">
+      <div class="publication-title">
+        Enhancing short-term crime prediction with human mobility flows and deep
+        learning architectures
+      </div>
+      <div class="publication-authors">
+        Wu, J., <b>S.M. Abrar</b>, Awasthi, N., Frias-Martinez, E. &
+        Frias-Martinez, V. (2022)
+      </div>
+      <div class="publication-venue">EPJ Data Science, 11(1), p.53</div>
+    </div>
+
+    <div class="publication">
+      <div class="publication-title">
+        Learning Drug-Disease-Target Embedding (DDTE) from knowledge graphs to
+        inform drug repurposing hypotheses
+      </div>
+      <div class="publication-authors">
+        Moon, C., Jin, C., Dong, X., <b>S. Abrar</b>, Zheng, W., Chirkova, R.
+        Y., & Tropsha, A. (2021)
+      </div>
+      <div class="publication-venue">
+        Journal of Biomedical Informatics, 119, 103838
+      </div>
     </div>
   </div>
 
-  <div class="publication">
-    <div class="publication-title">
-      Using COVID-19 vaccine attitudes on Twitter to improve vaccine uptake
-      forecast models in the United States: infodemiology study of Tweets
-    </div>
-    <div class="publication-authors">
-      Sigalo, N., Awasthi, N., <b>S.M. Abrar</b>, & Frias-Martinez, V. (2023)
-    </div>
-    <div class="publication-venue">JMIR Infodemiology, 3(1), e43703</div>
-  </div>
+  <div class="section">
+    <h2>Conference Papers</h2>
 
-  <div class="publication">
-    <div class="publication-title">
-      Auditing the fairness of place-based crime prediction models implemented
-      with deep learning approaches
-    </div>
-    <div class="publication-authors">
-      Wu, J., <b>S.M. Abrar</b>, Awasthi, N., & Frias-Martinez, V. (2023)
-    </div>
-    <div class="publication-venue">
-      Computers, Environment and Urban Systems, 102, 101967
+    <div class="publication">
+      <div class="publication-title">
+        The BALTO Toolkit: A New Approach to Ethical and Sustainable Data
+        Collection for Equitable Public Transit
+      </div>
+      <div class="publication-authors">
+        <b>S. Abrar</b>, Awasthi, N., Park, S., Vitak, J., & Frias-Martinez, V.
+        (2023)
+      </div>
+      <div class="publication-venue">
+        ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies, pp.
+        129-133
+      </div>
     </div>
   </div>
 
-  <div class="publication">
-    <div class="publication-title">
-      Enhancing short-term crime prediction with human mobility flows and deep
-      learning architectures
-    </div>
-    <div class="publication-authors">
-      Wu, J., <b>S.M. Abrar</b>, Awasthi, N., Frias-Martinez, E. &
-      Frias-Martinez, V. (2022)
-    </div>
-    <div class="publication-venue">EPJ Data Science, 11(1), p.53</div>
-  </div>
+  <div class="section">
+    <h2>Workshop Papers</h2>
 
-  <div class="publication">
-    <div class="publication-title">
-      Learning Drug-Disease-Target Embedding (DDTE) from knowledge graphs to
-      inform drug repurposing hypotheses
+    <div class="publication">
+      <div class="publication-title">
+        Systematic analysis of the effectiveness of adding human mobility data
+        to COVID-19 case prediction linear models
+      </div>
+      <div class="publication-authors">
+        <b>S.M. Abrar</b>, Awasthi, N., Smolyak, D., & Frias-Martinez, V. (2023)
+      </div>
+      <div class="publication-venue">ACM Compass Workshop</div>
     </div>
-    <div class="publication-authors">
-      Moon, C., Jin, C., Dong, X., <b>S. Abrar</b>, Zheng, W., Chirkova, R. Y.,
-      & Tropsha, A. (2021)
-    </div>
-    <div class="publication-venue">
-      Journal of Biomedical Informatics, 119, 103838
-    </div>
-  </div>
-</div>
 
-<div class="section">
-  <h2>Conference Papers</h2>
-
-  <div class="publication">
-    <div class="publication-title">
-      The BALTO Toolkit: A New Approach to Ethical and Sustainable Data
-      Collection for Equitable Public Transit
-    </div>
-    <div class="publication-authors">
-      <b>S. Abrar</b>, Awasthi, N., Park, S., Vitak, J., & Frias-Martinez, V.
-      (2023)
-    </div>
-    <div class="publication-venue">
-      ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies, pp.
-      129-133
+    <div class="publication">
+      <div class="publication-title">
+        COVID-19's Unequal Toll: An assessment of small business impact
+        disparities with respect to ethnorace in metropolitan areas in the US
+        using mobility data
+      </div>
+      <div class="publication-authors">
+        <b>S.M. Abrar</b>, Zinat, K. T., Awasthi, N., & Frias-Martinez, V.
+        (2023)
+      </div>
+      <div class="publication-venue">
+        Equitable Accessibility and Sustainable Mobility Workshop
+      </div>
     </div>
   </div>
-</div>
-
-<div class="section">
-  <h2>Workshop Papers</h2>
-
-  <div class="publication">
-    <div class="publication-title">
-      Systematic analysis of the effectiveness of adding human mobility data to
-      COVID-19 case prediction linear models
-    </div>
-    <div class="publication-authors">
-      <b>S.M. Abrar</b>, Awasthi, N., Smolyak, D., & Frias-Martinez, V. (2023)
-    </div>
-    <div class="publication-venue">ACM Compass Workshop</div>
-  </div>
-
-  <div class="publication">
-    <div class="publication-title">
-      COVID-19's Unequal Toll: An assessment of small business impact
-      disparities with respect to ethnorace in metropolitan areas in the US
-      using mobility data
-    </div>
-    <div class="publication-authors">
-      <b>S.M. Abrar</b>, Zinat, K. T., Awasthi, N., & Frias-Martinez, V. (2023)
-    </div>
-    <div class="publication-venue">
-      Equitable Accessibility and Sustainable Mobility Workshop
-    </div>
-  </div>
-</div>
+</html>

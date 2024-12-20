@@ -6,9 +6,8 @@ remove: "
 " %} {% else %} {% assign title = post.title %} {% endif %}
 
 <div class="archive__item">
-  <p class="archive__item-excerpt" itemprop="description">
-    * {{ post.citation }}{% if post.paperurl %} [<a href="{{ post.paperurl }}"
-      >PDF</a
-    >]{% endif %}
-  </p>
+  <div class="archive__item-excerpt">
+    {% assign year = post.date | date: "%Y" %} * {{ post.citation }}{% if
+    post.paperurl %} [[PDF]({{ post.paperurl }})]{% endif %}
+  </div>
 </div>

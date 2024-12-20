@@ -10,7 +10,14 @@ author_profile: true
   You can also find my articles on
   <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 </div>
-{% endif %} {% include base_path %} {% for post in site.publications reversed %}
-* {{ post.citation }}{% if post.paperurl %} [<a href="{{ post.paperurl }}"
-  >PDF</a
->]{% endif %} {% endfor %}
+<div class="archive-publications">
+  {% assign currentYear = "" %} {% for post in publications %} {% assign year =
+  post.date | date: "%Y" %} {% if year != currentYear %}
+  <h2>{{ year }}</h2>
+  {% assign currentYear = year %} {% endif %}
+  <div class="pub-entry">
+    * {{ post.citation }} {% if post.paperurl %} [[PDF]({{ post.paperurl }})] {%
+    endif %}
+  </div>
+  {% endfor %}
+</div>

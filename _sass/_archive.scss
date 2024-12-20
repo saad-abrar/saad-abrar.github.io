@@ -50,7 +50,6 @@
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -84,6 +83,17 @@
   }
 }
 
+.archive-publications {
+  .pub-entry {
+    margin-bottom: 1em;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
 
 /*
    List view
@@ -106,7 +116,6 @@
     margin: 0 0 4px;
   }
 }
-
 
 /*
    Grid view
@@ -150,7 +159,6 @@
     }
   }
 }
-
 
 /*
    Features

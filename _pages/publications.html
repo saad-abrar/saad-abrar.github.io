@@ -12,12 +12,9 @@ author_profile: true
     >my Google Scholar profile</a
   >.
 </div>
-{% endif %} {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <p class="archive__item-excerpt" itemprop="description">
-      * {{ post.citation }}{% raw %}{% if post.paperurl %} [<a href="{{ post.paperurl }}">PDF</a>]{% endif %}{% endraw %}
-    </p>
-  </article>
-</div>
+{% endif %} {% include base_path %} {% raw %}{% for post in site.publications
+reversed %} * {{ post.citation }}{% if post.paperurl %} [<a
+  href="{{ post.paperurl }}"
+  >PDF</a
+>]{% endif %} {% endfor %}{% endraw %}

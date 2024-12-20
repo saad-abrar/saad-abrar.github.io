@@ -1,38 +1,14 @@
-{% include base_path %}
+{% include base_path %} {% if post.header.teaser %} {% capture teaser %}{{
+post.header.teaser }}{% endcapture %} {% else %} {% assign teaser = site.teaser
+%} {% endif %} {% if post.id %} {% assign title = post.title | markdownify |
+remove: "
+<p>" | remove: "</p>
+" %} {% else %} {% assign title = post.title %} {% endif %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% raw %}{% assign year = post.date | date: "%Y" %}{% endraw %}
-    
-    {% raw %}{% if year != current_year %}
-      <h2 class="archive__item-title">{{ year }}</h2>
-      {% assign current_year = year %}
-    {% endif %}{% endraw %}
-
-    <p class="archive__item-excerpt" itemprop="description">
-      * {{ post.title }}. 
-      {% raw %}{% assign authors = post.authors | default: post.author | split: ", " %}
-      {% for author in authors %}
-        {% if author contains "Saad Mohammad Abrar" %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}
-        {% unless forloop.last %}, {% endunless %}
-      {% endfor %}{% endraw %}. 
-      {{ post.venue }}{% raw %}{% if post.paperurl %} [<a href="{{ post.paperurl }}">PDF</a>]{% endif %}{% endraw %}{% raw %}{% if post.slidesurl %} [<a href="{{ post.slidesurl }}">Slides</a>]{% endif %}{% endraw %}
-    </p>
-  </article>
+<div class="archive__item">
+  <p class="archive__item-excerpt" itemprop="description">
+    * {{ post.citation }}{% if post.paperurl %} [<a href="{{ post.paperurl }}"
+      >PDF</a
+    >]{% endif %}
+  </p>
 </div>

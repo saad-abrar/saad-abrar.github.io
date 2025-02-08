@@ -24,7 +24,7 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 
 My research operates at the intersection of data science, urban computing, and fairness in AI, focusing on three key areas:
 
-**Data Curation**: I develop tools and frameworks for collecting human mobility data, including BALTO, a privacy-preserving toolkit for gathering multimodal transit data. This work ensures representative and ethical data collection practices.
+**Data Curation**: I develop tools and frameworks for collecting human mobility data, including [BALTO](https://balto.umd.edu/), a privacy-preserving toolkit ([BALTOApp](https://play.google.com/store/apps/details?id=balto.loc.kotlin&hl=en_US) and BALTODash) for gathering multimodal (mobility + transit experiences) transit data. This work ensures representative and ethical data collection practices.
 
 **Forecasting**: I design and implement accurate prediction models, with a particular focus on COVID-19 case forecasting and economic recovery patterns. These models integrate multiple data sources to provide reliable predictions for decision-makers.
 

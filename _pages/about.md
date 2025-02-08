@@ -6,12 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 # Introduction
 
 Hi, I am Saad! I am a **Ph.D. candidate in Computer Science** at the University of Maryland, College Park, working under the supervision of [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) in the [Urban Computing Lab](https://www.urbancomputinglab.org/). My dissertation focuses on *Auditing the accuracy and fairness of COVID-19 forecasting and modeling tasks with mobility and contextual data*, where I develop frameworks to evaluate prediction models and mobility datasets for potential biases and performance disparities across different social determinants. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance, ultimately contributing to more fair and effective public health and economic policy decisions.
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017. My research has led to several peer-reviewed publications in venues such as PLOS One, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science. I am particularly interested in developing fair and interpretable models that can drive decision-making in high-stakes settings like public health and urban applications, while ensuring equitable outcomes across different communities.
+
+# News
+- **[February 2025]** Paper on auditing fairness of US COVID-19 Forecast Hub models accepted at *PLOS One*.
+- **[October 2024]** Presented our work on Disparate recovery trajectories of small business restaurants across USA at [NetMob 2024](https://netmob.org/)
+
 
 # Research Focus
 
@@ -32,7 +36,7 @@ This research aims to enable efficient and equitable data-driven policy and plan
 - Economic Recovery
 
 
-
+<!--
 # Recent Publications
 
 - **Analysis of performance improvements and bias associated with the use of human mobility data in COVID-19 case prediction models**  
@@ -64,3 +68,4 @@ Served as a reviewer for:
 - ACM JCSS
 - PLOS One
 - IEEE Transactions on Computational Social Systems
+-->

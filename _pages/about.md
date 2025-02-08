@@ -7,23 +7,31 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Saad! I am a PhD Candidate at University of Maryland at College Park working with [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) at the [Urban Computing Lab](https://www.urbancomputinglab.org/). My research interests spans across applied machine learning, human mobility and data science for social good specifically focusing on urban contexts. Previously, I've completed my M.S. in Computer Science from UMD and my undergraduate studies (BSc in Computer Science and Engineering) at Bangladesh University of Engineering and Technology (BUET).
+# Introduction
 
-# About Me
+Hi, I am Saad! I am a **Ph.D. candidate in Computer Science** at the University of Maryland, College Park, working under the supervision of [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) in the [Urban Computing Lab](https://www.urbancomputinglab.org/). My dissertation focuses on *Auditing the accuracy and fairness of COVID-19 forecasting and modeling tasks with mobility and contextual data*, where I develop frameworks to evaluate prediction models and mobility datasets for potential biases and performance disparities across different social determinants. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance, ultimately contributing to more fair and effective public health and economic policy decisions.
 
-Hi, I am Saad! I am a PhD Candidate at University of Maryland at College Park working with [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) at the [Urban Computing Lab](https://www.urbancomputinglab.org/). My research interests span across applied machine learning, human mobility, and data science for social good, specifically focusing on urban contexts. My current research focuses on auditing the fairness and accuracy of urban predictive models that use mobility and contextual data, particularly in the context of COVID-19 forecasting and economic resilience.
-
-Previously, I completed my M.S. in Computer Science from UMD (2023) and my undergraduate studies (BSc in Computer Science and Engineering) at Bangladesh University of Engineering and Technology (BUET) in 2017.
+I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017. My research has led to several peer-reviewed publications in venues such as PLOS One, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science. I am particularly interested in developing fair and interpretable models that can drive decision-making in high-stakes settings like public health and urban applications, while ensuring equitable outcomes across different communities.
 
 # Research Focus
 
-My research primarily investigates three critical areas:
 
-1. **Impact of Mobility Data in Predictive Modeling**: Evaluating how human mobility data affects the accuracy of COVID-19 case predictions and examining potential biases in these predictions across different demographic groups.
+![Research Framework](/images/ResearchFocus.png){: .full}
 
-2. **Fairness in COVID-19 Forecasting**: Developing frameworks to audit the fairness of COVID-19 prediction models across various social determinants, with a particular focus on the CDC's Forecast Hub models.
+My research operates at the intersection of data science, urban computing, and fairness in AI, focusing on three key areas:
 
-3. **Economic Activity and Mobility Patterns**: Investigating the causal relationship between mobility data and economic activity, particularly focusing on small business resilience during and after the COVID-19 pandemic.
+**Data Curation**: I develop tools and frameworks for collecting human mobility data, including BALTO, a privacy-preserving toolkit for gathering multimodal transit data. This work ensures representative and ethical data collection practices.
+
+**Forecasting**: I design and implement accurate prediction models, with a particular focus on COVID-19 case forecasting and economic recovery patterns. These models integrate multiple data sources to provide reliable predictions for decision-makers.
+
+**Auditing**: I develop frameworks to audit AI systems for fairness and evaluate the role of behavioral data in predictive modeling. This work includes assessing prediction models for demographic biases and understanding how mobility data impacts model performance across different communities.
+
+This research aims to enable efficient and equitable data-driven policy and planning, with direct applications in:
+- Public Health Response
+- Urban Planning
+- Economic Recovery
+
+
 
 # Recent Publications
 

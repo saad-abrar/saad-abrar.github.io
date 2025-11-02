@@ -5,29 +5,79 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  .pub-type-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85em;
+    color: white;
+  }
+  
+  .badge-journal {
+    background-color: #2563eb;
+  }
+  
+  .badge-conference {
+    background-color: #059669;
+  }
+  
+  .badge-workshop {
+    background-color: #7c3aed;
+  }
+  
+  .badge-book-chapter {
+    background-color: #dc2626;
+  }
+  
+  .archive__item-excerpt {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .pub-link {
+    margin-left: 5px;
+  }
+</style>
+
 {% if site.author.googlescholar %}
 <div class="wordwrap">
   You can also find my articles on
   <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 </div>
-{% endif %} {% include base_path %}
+{% endif %} 
+
+{% include base_path %}
 
 <div class="archive">
   {% assign grouped_publications = site.publications | group_by_exp: "pub",
-  "pub.date | date: '%Y'" | sort: "name" | reverse %} {% for year in
-  grouped_publications %}
+  "pub.date | date: '%Y'" | sort: "name" | reverse %} 
+  
+  {% for year in grouped_publications %}
   <h2>{{ year.name }}</h2>
+  
   {% for post in year.items %}
   <div class="archive__item">
-    <div
-      class="archive__item-excerpt"
-      style="margin-left: 20px; text-indent: -20px"
-    >
-      * {{ post.citation | replace: "Abrar, S. M.", "<strong
-        >Abrar, S. M.</strong
-      >" | replace: "Abrar, S.", "<strong>Abrar, S.</strong>" }} {% if
-      post.paperurl %} [<a href="{{ post.paperurl }}">PDF</a>] {% endif %}
+    <div class="archive__item-excerpt" style="margin-left: 20px; text-indent: -20px">
+      {% if post.type == 'journal' %}
+        <span class="pub-type-badge badge-journal">Journal</span>
+      {% elsif post.type == 'conference' %}
+        <span class="pub-type-badge badge-conference">Conference</span>
+      {% elsif post.type == 'workshop' %}
+        <span class="pub-type-badge badge-workshop">Workshop</span>
+      {% elsif post.type == 'book_chapter' %}
+        <span class="pub-type-badge badge-book-chapter">Book Chapter</span>
+      {% endif %}
+      
+      {{ post.citation | replace: "Abrar, S. M.", "<strong>Abrar, S. M.</strong>" | replace: "Abrar, S.", "<strong>Abrar, S.</strong>" | replace: "<b>[Journal]</b>", "" | replace: "<b>[Conference]</b>", "" | replace: "<b>[Workshop]</b>", "" | replace: "<b>[Book Chapter]</b>", "" }} 
+      
+      {% if post.paperurl and post.paperurl != '' %}
+        <span class="pub-link">[<a href="{{ post.paperurl }}">PDF</a>]</span>
+      {% endif %}
     </div>
   </div>
-  {% endfor %} {% endfor %}
+  {% endfor %} 
+  {% endfor %}
 </div>

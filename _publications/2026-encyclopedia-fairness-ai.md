@@ -1,6 +1,7 @@
 ---
 title: "Fairness and Equity in AI for Societal Decision Making"
 collection: publications
+type: bookchapter
 permalink: /publication/2026-encyclopedia-fairness-ai
 excerpt: 'Invited book chapter on fairness and equity in AI for the Encyclopedia of GIS'
 date: 2026-01-01

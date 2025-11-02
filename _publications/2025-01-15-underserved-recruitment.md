@@ -2,11 +2,11 @@
 title: "Engaging underserved communities in smartphone-based research: comparing mailings, advertisements, and in-person recruitment strategies"
 collection: publications
 type: journal
-permalink: /publication/2025-01-15-underserved-recruitment
+permalink: https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true
 excerpt: 'Comparative analysis of recruitment strategies for smartphone-based research with underserved populations'
 date: 2025-01-15
 venue: 'International Journal of Social Research Methodology'
-paperurl: ''
+paperurl: 'https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true'
 citation: 'Antoun, C., Frías-Martínez, V., Garove, A., Awasthi, N., & Abrar, S. M. (2025). Engaging underserved communities in smartphone-based research: comparing mailings, advertisements, and in-person recruitment strategies. International Journal of Social Research Methodology, 1-21.'
 ---
 
@@ -29,4 +29,4 @@ This work is part of the BALTO project, which developed ethical and sustainable 
 
 Antoun, C., Frías-Martínez, V., Garove, A., Awasthi, N., & Abrar, S. M. (2025). Engaging underserved communities in smartphone-based research: comparing mailings, advertisements, and in-person recruitment strategies. *International Journal of Social Research Methodology*, 1-21.
 
-[Download paper here](#)
+[Download paper here](https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true)

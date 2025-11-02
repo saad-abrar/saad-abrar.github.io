@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 # Introduction
-Hi, I am Saad! I am a **PhD candidate in Computer Science** at the University of Maryland, College Park, working under the supervision of [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/)in the [Urban Computing Lab](https://www.urbancomputinglab.org/).
+Hi, I am Saad! I am a **PhD candidate in Computer Science** at the University of Maryland, College Park, working under the supervision of [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) in the [Urban Computing Lab](https://www.urbancomputinglab.org/).
 
 My research is in general is situated in computational social science, drawing methodologies from machine learning, statistics, and fairness methods. I aim to improve high-stakes decision-making by leveraging behavioral data to build accurate and trustworthy predictive systems.
 
@@ -15,11 +15,14 @@ My dissertation focuses on "Auditing the accuracy and fairness of COVID-19 forec
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
 
+**[Research Statement](https://drive.google.com/file/d/1hw9sstiK-YFw2EFteq-Bmh79X6d8MP0k/view?usp=drive_link)** | **[Teaching Statement](https://drive.google.com/file/d/1txl38kH9Dk_oeIRI-ZjLNAGXe1g76fDv/view?usp=drive_link)**| **[Academic CV](https://drive.google.com/file/d/16WObxW_atOld2kd7W74lLS8Uqlxeh59r/view?usp=drive_link)**
+
 
 # Recent News
-- **[September 2025]** Two papers accepted: "Engaging underserved communities in smartphone-based research" at *International Journal of Social Research Methodology*, "ProcVQA: Benchmarking Vision-Language Models" at *EMNLP 2025 Findings*, and "Beyond Mode Detection: Reconstructing Transit Itineraries" at *ACM SIGSPATIAL 2025 Workshop*.
-- **[August 2025]** Paper "ProcVQA: Benchmarking Vision-Language Models" accepted at EMNLP Findings '25
-- **[February 2025]** Paper on [auditing fairness of US COVID-19 Forecast Hub models](https://doi.org/10.1371/journal.pone.0319383) accepted at *PLOS One*.
+- **[November 2025]** Traveling to Minneapolis, MN for ["ACM SIGSPATIAL '25"](https://sigspatial2025.sigspatial.org/)
+- **[September 2025]** *Two* papers accepted: ["Engaging underserved communities in smartphone-based research"](https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true) at *International Journal of Social Research Methodology*, and ["Beyond Mode Detection: Reconstructing Transit Itineraries"](https://dl.acm.org/doi/abs/10.1145/3764924.3770890) at *ACM SIGSPATIAL 2025 Workshop*.
+- **[August 2025]** Paper ["ProcVQA: Benchmarking Vision-Language Models"](https://zcliu.org/papers/ProcVQA_EMNLP25.pdf) accepted at EMNLP Findings '25. Code available here.
+- **[February 2025]** Paper on [Auditing fairness of US COVID-19 Forecast Hub models](https://doi.org/10.1371/journal.pone.0319383) accepted at *PLOS One*.
 - **[October 2024]** Presented our work on Disparate recovery trajectories of small business restaurants across USA at [NetMob 2024](https://netmob.org/)
 
 
@@ -28,13 +31,11 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 
 ![Research Framework](/images/ResearchFocus.png){: .full}
 
-My research operates at the intersection of data science, urban computing, and fairness in AI, focusing on three key areas:
+**Model**: I design accurate predictors that leverage contextual and behavioral signals to improve forecasting in high-stakes settings. Through systematic evaluation, I determine when and how mobility and social media data enhance predictions across public health, crime, and related domains. _[EPJ Data Science '22, JCSS '23, JMIR '23]_
 
-**Model**: I develop tools and frameworks for collecting human mobility data, including [BALTO](https://balto.umd.edu/), a privacy-preserving toolkit ([BALTOApp](https://play.google.com/store/apps/details?id=balto.loc.kotlin&hl=en_US) and BALTODash) for gathering multimodal (mobility + transit experiences) transit data. This work ensures representative and ethical data collection practices.
+**Mitigate**: I develop comprehensive audit frameworks that uncover bias and failure modes in both data and models. By separating data-driven from model-driven failures, I create targeted fairness strategies that address disparities across demographics and geographies in predictive systems. _[CEUS '23, JCSS '23, PLoS One '25, EMNLP Findings '25]_
 
-**Forecasting**: I design and implement accurate prediction models, with a particular focus on COVID-19 case forecasting and economic recovery patterns. These models integrate multiple data sources to provide reliable predictions for decision-makers.
-
-**Auditing**: I develop frameworks to audit AI systems for fairness and evaluate the role of behavioral data in predictive modeling. This work includes assessing prediction models for demographic biases and understanding how mobility data impacts model performance across different communities.
+**Measure**: I build ethically-aware data collection toolkits that empower communities to gather and analyze their own mobility and experiential data. Through participatory design that prioritizes consent and transparency, I enable equitable decision-making in public transit planning. _[COMPASS '23, IJSRM '25]_
 
 This research aims to enable efficient and equitable data-driven policy and planning, with direct applications in:
 - Public Health Response

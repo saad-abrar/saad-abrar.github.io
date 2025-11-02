@@ -5,7 +5,7 @@ type: journal
 permalink: https://www.sciencedirect.com/science/article/pii/S1532046421001672
 date: 2021-06-11
 venue: "Journal of Biomedical Informatics"
-paperurl: "https://www.sciencedirect.com/science/article/pii/S1532046421001672"
+paperurl: https://www.sciencedirect.com/science/article/pii/S1532046421001672
 authors:
   - "Changsung Moon"
   - "Chunming Jin"

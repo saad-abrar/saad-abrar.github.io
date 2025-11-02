@@ -2,11 +2,11 @@
 title: "Beyond Mode Detection: Reconstructing Detailed Transit Itineraries from Crowdsourced GPS Trajectories"
 collection: publications
 type: workshop
-permalink: /publication/2025-01-05-transit-itinerary-reconstruction
+permalink: https://dl.acm.org/doi/abs/10.1145/3764924.3770890
 excerpt: 'Novel method for reconstructing detailed transit itineraries from crowdsourced GPS trajectories beyond simple mode detection'
 date: 2025-01-05
 venue: 'ACM SIGSPATIAL Workshop on Spatial Intelligence for Smart and Connected Communities'
-paperurl: ''
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3764924.3770890'
 citation: 'Jagtap, O., Awasthi, N., Jain, M., Abrar, S. M., & Frías-Martínez, V. (2025). Beyond Mode Detection: Reconstructing Detailed Transit Itineraries from Crowdsourced GPS Trajectories. In Proceedings of the 1st ACM SIGSPATIAL International Workshop on Spatial Intelligence for Smart and Connected Communities (pp. 35-38).'
 ---
 
@@ -33,4 +33,4 @@ This work builds on the BALTO project's infrastructure for ethical and sustainab
 
 Jagtap, O., Awasthi, N., Jain, M., Abrar, S. M., & Frías-Martínez, V. (2025). Beyond Mode Detection: Reconstructing Detailed Transit Itineraries from Crowdsourced GPS Trajectories. In *Proceedings of the 1st ACM SIGSPATIAL International Workshop on Spatial Intelligence for Smart and Connected Communities* (pp. 35-38).
 
-[Download paper here](#)
+[Download paper here](https://dl.acm.org/doi/abs/10.1145/3764924.3770890)

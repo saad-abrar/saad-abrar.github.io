@@ -60,14 +60,14 @@ author_profile: true
   
   {% for post in year.items %}
   <div class="archive__item">
-    <div class="archive__item-excerpt" style="margin-left: 20px; text-indent: -20px">
+    <div class="archive__item-excerpt">
       {% if post.type == 'journal' %}
         <span class="pub-type-badge badge-journal">Journal</span>
       {% elsif post.type == 'conference' %}
         <span class="pub-type-badge badge-conference">Conference</span>
       {% elsif post.type == 'workshop' %}
         <span class="pub-type-badge badge-workshop">Workshop</span>
-      {% elsif post.type == 'book_chapter' %}
+      {% elsif post.type == 'bookchapter' %}
         <span class="pub-type-badge badge-book-chapter">Book Chapter</span>
       {% endif %}
       

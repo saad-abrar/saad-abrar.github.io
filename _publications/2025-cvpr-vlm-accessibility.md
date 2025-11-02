@@ -2,11 +2,11 @@
 title: "Evaluating VLMs as Accessibility Bridges for Process Visualizations"
 collection: publications
 type: workshop
-permalink: /publication/2025-cvpr-vlm-accessibility
+permalink: https://zcliu.org/papers/VLM_ProcessVis_Vizwiz25.pdf
 excerpt: 'Extended abstract evaluating vision-language models as accessibility tools for process mining visualizations'
 date: 2025-06-01
 venue: 'CVPR 2025 Workshop on the VizWiz Grand Challenge'
-paperurl: ''
+paperurl: 'https://zcliu.org/papers/VLM_ProcessVis_Vizwiz25.pdf'
 citation: 'Zinat, K. T., Abrar, S. M., Duppala, S., Sakhamuri, S. N., & Liu, Z. (2025). Evaluating VLMs as Accessibility Bridges for Process Visualizations. CVPR 2025 Workshop on the VizWiz Grand Challenge.'
 ---
 
@@ -37,4 +37,4 @@ Extended Abstract
 
 Zinat, K. T., Abrar, S. M., Duppala, S., Sakhamuri, S. N., & Liu, Z. (2025). Evaluating VLMs as Accessibility Bridges for Process Visualizations. *CVPR 2025 Workshop on the VizWiz Grand Challenge*.
 
-[Download paper here](#)
+[Download paper here](https://zcliu.org/papers/VLM_ProcessVis_Vizwiz25.pdf)

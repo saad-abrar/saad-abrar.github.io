@@ -1,6 +1,7 @@
 ---
 title: "ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision–Language Model Performance"
 collection: publications
+type: conference
 permalink: /publication/2025-01-10-procvqa-vlm
 excerpt: 'Benchmark dataset exposing systematic failures of vision-language models in process mining visualization tasks'
 date: 2025-01-10

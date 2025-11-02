@@ -1,6 +1,7 @@
 ---
 title: "Evaluating VLMs as Accessibility Bridges for Process Visualizations"
 collection: publications
+type: workshop
 permalink: /publication/2025-cvpr-vlm-accessibility
 excerpt: 'Extended abstract evaluating vision-language models as accessibility tools for process mining visualizations'
 date: 2025-06-01

@@ -1,6 +1,7 @@
 ---
 title: "Engaging underserved communities in smartphone-based research: comparing mailings, advertisements, and in-person recruitment strategies"
 collection: publications
+type: journal
 permalink: /publication/2025-01-15-underserved-recruitment
 excerpt: 'Comparative analysis of recruitment strategies for smartphone-based research with underserved populations'
 date: 2025-01-15

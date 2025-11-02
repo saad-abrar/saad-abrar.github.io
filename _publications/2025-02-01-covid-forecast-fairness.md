@@ -1,7 +1,8 @@
 ---
 title: "Auditing the fairness of the US COVID-19 forecast hub's case prediction models"
 collection: publications
-permalink: /publication/2025-02-01-covid-forecast-fairness
+type: journal
+permalink: https://doi.org/10.1371/journal.pone.0319383
 excerpt: 'Systematic fairness audit of 36 COVID-19 forecasting models from the CDC Forecast Hub'
 date: 2025-02-01
 venue: 'PLOS One'

@@ -1,6 +1,7 @@
 ---
 title: "Enhancing short-term crime prediction with human mobility flows and deep learning architectures"
 collection: publications
+type: journal
 permalink: /publication/2022-11-08-crime-prediction-mobility
 excerpt: "We developed and evaluated novel deep learning architectures that combine spatial, temporal, and mobility features to improve short-term crime prediction accuracy, demonstrating significant improvements over traditional approaches."
 date: 2022-11-08

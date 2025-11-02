@@ -1,6 +1,7 @@
 ---
 title: "Beyond Mode Detection: Reconstructing Detailed Transit Itineraries from Crowdsourced GPS Trajectories"
 collection: publications
+type: workshop
 permalink: /publication/2025-01-05-transit-itinerary-reconstruction
 excerpt: 'Novel method for reconstructing detailed transit itineraries from crowdsourced GPS trajectories beyond simple mode detection'
 date: 2025-01-05

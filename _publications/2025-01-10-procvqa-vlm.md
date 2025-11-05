@@ -2,11 +2,11 @@
 title: "ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision–Language Model Performance"
 collection: publications
 type: conference
-permalink: https://zcliu.org/papers/ProcVQA_EMNLP25.pdf
+permalink: https://aclanthology.org/2025.findings-emnlp.1266/
 excerpt: 'Benchmark dataset exposing systematic failures of vision-language models in process mining visualization tasks'
 date: 2025-01-10
 venue: 'EMNLP 2025 Findings'
-paperurl: 'https://zcliu.org/papers/ProcVQA_EMNLP25.pdf'
+paperurl: 'https://aclanthology.org/2025.findings-emnlp.1266/'
 citation: 'Zinat, K. T.*, Abrar, S. M.*, Saha, S., Sakhamuri, S., Duppala, S., & Liu, Z. (2025). ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision–Language Model Performance. In Findings of the Association for Computational Linguistics: EMNLP 2025. (* equal contribution)'
 ---
 
@@ -33,4 +33,4 @@ This work extends the broader research agenda on auditing AI systems, moving fro
 
 Zinat, K. T.*, Abrar, S. M.*, Saha, S., Sakhamuri, S., Duppala, S., & Liu, Z. (2025). ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision–Language Model Performance. In *Findings of the Association for Computational Linguistics: EMNLP 2025*. (* equal contribution)
 
-[Download paper here](https://zcliu.org/papers/ProcVQA_EMNLP25.pdf)
+[Download paper here](https://aclanthology.org/2025.findings-emnlp.1266/)

@@ -19,6 +19,7 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 
 
 # Recent News
+- **[November 2025]** Our paper ProcVQA is live at EMNLP '25. [[Paper](https://aclanthology.org/2025.findings-emnlp.1266/)|[Code](https://github.com/kzintas/ProcVQA)]
 - **[November 2025]** Traveling to Minneapolis, MN for ["ACM SIGSPATIAL '25"](https://sigspatial2025.sigspatial.org/)
 - **[September 2025]** *Two* papers accepted: ["Engaging underserved communities in smartphone-based research"](https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true) at *International Journal of Social Research Methodology*, and ["Beyond Mode Detection: Reconstructing Transit Itineraries"](https://dl.acm.org/doi/abs/10.1145/3764924.3770890) at *ACM SIGSPATIAL 2025 Workshop*.
 - **[August 2025]** Paper ["ProcVQA: Benchmarking Vision-Language Models"](https://zcliu.org/papers/ProcVQA_EMNLP25.pdf) accepted at EMNLP Findings '25. Code available here.

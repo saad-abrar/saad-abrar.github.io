@@ -19,12 +19,51 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 
 
 # Recent News
-- **[November 2025]** Our paper ProcVQA is live at EMNLP '25. [[Paper](https://aclanthology.org/2025.findings-emnlp.1266/),[Code](https://github.com/kzintas/ProcVQA)]
-- **[November 2025]** Traveling to Minneapolis, MN for ["ACM SIGSPATIAL '25"](https://sigspatial2025.sigspatial.org/)
-- **[September 2025]** *Two* papers accepted: ["Engaging underserved communities in smartphone-based research"](https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true) at *International Journal of Social Research Methodology*, and ["Beyond Mode Detection: Reconstructing Transit Itineraries"](https://dl.acm.org/doi/abs/10.1145/3764924.3770890) at *ACM SIGSPATIAL 2025 Workshop*.
-- **[August 2025]** Paper ["ProcVQA: Benchmarking Vision-Language Models"](https://zcliu.org/papers/ProcVQA_EMNLP25.pdf) accepted at EMNLP Findings '25. Code available here.
-- **[February 2025]** Paper on [Auditing fairness of US COVID-19 Forecast Hub models](https://doi.org/10.1371/journal.pone.0319383) accepted at *PLOS One*.
-- **[October 2024]** Presented our work on Disparate recovery trajectories of small business restaurants across USA at [NetMob 2024](https://netmob.org/)
+
+<ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">February 2026</span>
+    <span class="news-text">
+      New journal article <a href="https://ojphi.jmir.org/2026/1/e78235">"Fairness Correction in COVID-19 Predictive Models Using Demographic Optimization"</a> published in <em>Online Journal of Public Health Informatics</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">November 2025</span>
+    <span class="news-text">
+      Our paper ProcVQA is live at EMNLP '25. <a href="https://aclanthology.org/2025.findings-emnlp.1266/">Paper</a> | <a href="https://github.com/kzintas/ProcVQA">Code</a>
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">November 2025</span>
+    <span class="news-text">
+      Traveling to Minneapolis, MN for <a href="https://sigspatial2025.sigspatial.org/">ACM SIGSPATIAL '25</a>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">September 2025</span>
+    <span class="news-text">
+      <em>Two</em> papers accepted: <a href="https://www.tandfonline.com/doi/full/10.1080/13645579.2025.2571689?scroll=top&needAccess=true">"Engaging underserved communities in smartphone-based research"</a> at <em>International Journal of Social Research Methodology</em>, and <a href="https://dl.acm.org/doi/abs/10.1145/3764924.3770890">"Beyond Mode Detection: Reconstructing Transit Itineraries"</a> at the <em>ACM SIGSPATIAL 2025 Workshop</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">August 2025</span>
+    <span class="news-text">
+      Paper <a href="https://zcliu.org/papers/ProcVQA_EMNLP25.pdf">"ProcVQA: Benchmarking Vision-Language Models"</a> accepted at EMNLP Findings '25. Code available via the link.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">February 2025</span>
+    <span class="news-text">
+      Paper on <a href="https://doi.org/10.1371/journal.pone.0319383">Auditing fairness of US COVID-19 Forecast Hub models</a> accepted at <em>PLOS One</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">October 2024</span>
+    <span class="news-text">
+      Presented our work on disparate recovery trajectories of small business restaurants across the USA at <a href="https://netmob.org/">NetMob 2024</a>.
+    </span>
+  </li>
+</ul>
 
 
 # Research Focus

@@ -6,27 +6,43 @@ author_profile: true
 ---
 
 <style>
-  /* Make publications list align with main content */
-  .page__content .archive {
-    float: none !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 0 !important;
+  .pub-intro {
+    margin: 0 0 1.5rem;
+    font-size: 0.9em;
+    color: #555;
   }
 
-  .page__content .archive__item {
-    margin-left: 0 !important;
+  .pub-intro a {
+    font-weight: 600;
+  }
+
+  .pub-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .pub-kind {
+    flex: 0 0 8.5rem; /* fixed left column */
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .pub-content {
+    flex: 1 1 auto;
+    min-width: 0; /* allow wrapping nicely in flex */
   }
 
   .pub-type-badge {
-    display: inline-block;
-    padding: 2px 8px;
-    margin-right: 8px;
-    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    border-radius: 999px;
     font-weight: 600;
     font-size: 0.85em;
     color: white;
+    line-height: 1.4;
   }
   
   .badge-journal {
@@ -53,18 +69,29 @@ author_profile: true
   .pub-link {
     margin-left: 5px;
   }
-</style>
 
-{% if site.author.googlescholar %}
-<div class="wordwrap">
-  You can also find my articles on
-  <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
-</div>
-{% endif %} 
+  @media (max-width: 700px) {
+    .pub-row {
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .pub-kind {
+      flex-basis: auto;
+    }
+  }
+</style>
 
 {% include base_path %}
 
-<div class="archive">
+{% if site.author.googlescholar %}
+<p class="pub-intro">
+  A more complete and up-to-date list of my publications is available on
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.
+</p>
+{% endif %}
+
+<div class="archive-publications">
   {% assign grouped_publications = site.publications | group_by_exp: "pub",
   "pub.date | date: '%Y'" | sort: "name" | reverse %} 
   
@@ -74,21 +101,29 @@ author_profile: true
   {% for post in year.items %}
   <div class="archive__item">
     <div class="archive__item-excerpt">
-      {% if post.type == 'journal' %}
-        <span class="pub-type-badge badge-journal">Journal</span>
-      {% elsif post.type == 'conference' %}
-        <span class="pub-type-badge badge-conference">Conference</span>
-      {% elsif post.type == 'workshop' %}
-        <span class="pub-type-badge badge-workshop">Workshop</span>
-      {% elsif post.type == 'bookchapter' %}
-        <span class="pub-type-badge badge-book-chapter">Book Chapter</span>
-      {% endif %}
-      
-      {{ post.citation | replace: "Abrar, S. M.", "<strong>Abrar, S. M.</strong>" | replace: "Abrar, S.", "<strong>Abrar, S.</strong>" | replace: "<b>[Journal]</b>", "" | replace: "<b>[Conference]</b>", "" | replace: "<b>[Workshop]</b>", "" | replace: "<b>[Book Chapter]</b>", "" }} 
-      
-      {% if post.paperurl and post.paperurl != '' %}
-        <span class="pub-link">[<a href="{{ post.paperurl }}">PDF</a>]</span>
-      {% endif %}
+      <div class="pub-row">
+        <div class="pub-kind">
+          {% if post.type == 'journal' %}
+            <span class="pub-type-badge badge-journal">Journal</span>
+          {% elsif post.type == 'conference' %}
+            <span class="pub-type-badge badge-conference">Conference</span>
+          {% elsif post.type == 'workshop' %}
+            <span class="pub-type-badge badge-workshop">Workshop</span>
+          {% elsif post.type == 'bookchapter' %}
+            <span class="pub-type-badge badge-book-chapter">Book Chapter</span>
+          {% else %}
+            <span class="pub-type-badge" style="background-color:#6b7280;">Other</span>
+          {% endif %}
+        </div>
+
+        <div class="pub-content">
+          {{ post.citation | replace: "Abrar, S. M.", "<strong>Abrar, S. M.</strong>" | replace: "Abrar, S.", "<strong>Abrar, S.</strong>" | replace: "<b>[Journal]</b>", "" | replace: "<b>[Conference]</b>", "" | replace: "<b>[Workshop]</b>", "" | replace: "<b>[Book Chapter]</b>", "" }}
+
+          {% if post.paperurl and post.paperurl != '' %}
+            <span class="pub-link">[<a href="{{ post.paperurl }}">PDF</a>]</span>
+          {% endif %}
+        </div>
+      </div>
     </div>
   </div>
   {% endfor %} 

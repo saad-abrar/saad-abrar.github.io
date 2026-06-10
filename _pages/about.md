@@ -11,7 +11,7 @@ Hi, I am Saad! I am a **PhD candidate in Computer Science** at the University of
 
 My research is in general is situated in computational social science, drawing methodologies from machine learning, statistics, and fairness methods. I aim to improve high-stakes decision-making by leveraging behavioral data to build accurate and trustworthy predictive systems.
 
-My dissertation focuses on "Auditing the accuracy and fairness of COVID-19 forecasting and modeling tasks with mobility and contextual data", where I develop frameworks to evaluate prediction models and mobility datasets for potential biases and performance disparities across different social determinants. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **13 peer-reviewed publications** (7 journal articles, 2 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science.
+My dissertation focuses on "Auditing the accuracy and fairness of COVID-19 forecasting and modeling tasks with mobility and contextual data", where I develop frameworks to evaluate prediction models and mobility datasets for potential biases and performance disparities across different social determinants. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **16 peer-reviewed publications** (10 journal articles, 2 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science, Big Data & Society, and Behavior Research Methods.
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
 
@@ -21,6 +21,24 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 # Recent News
 
 <ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">May 2026</span>
+    <span class="news-text">
+      New journal article <a href="https://link.springer.com/article/10.3758/s13428-026-03022-z">"The benefits of in situ reporting"</a> published in <em>Behavior Research Methods</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">April 2026</span>
+    <span class="news-text">
+      New journal article <a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-026-00656-z">"Assessing the impact of case correction methods on the fairness of COVID-19 predictive models"</a> published in <em>EPJ Data Science</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">March 2026</span>
+    <span class="news-text">
+      New journal article <a href="https://journals.sagepub.com/doi/10.1177/20539517261429203">"From 'I have nothing to hide' to 'Its stalking'"</a> published in <em>Big Data &amp; Society</em>.
+    </span>
+  </li>
   <li class="news-item">
     <span class="news-date">February 2026</span>
     <span class="news-text">

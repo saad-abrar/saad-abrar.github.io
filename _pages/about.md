@@ -11,16 +11,22 @@ Hi, I am Saad! I am a **PhD candidate in Computer Science** at the University of
 
 My research is in general is situated in computational social science, drawing methodologies from machine learning, statistics, and fairness methods. I aim to improve high-stakes decision-making by leveraging behavioral data to build accurate and trustworthy predictive systems.
 
-My dissertation focuses on "Auditing the accuracy and fairness of COVID-19 forecasting and modeling tasks with mobility and contextual data", where I develop frameworks to evaluate prediction models and mobility datasets for potential biases and performance disparities across different social determinants. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **16 peer-reviewed publications** (10 journal articles, 2 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science, Big Data & Society, and Behavior Research Methods.
+My dissertation, [*Data-Driven Decision-Making for Societal Systems: Auditing Mobility, Contextual Data and Models for High-Stakes Applications*](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01), develops frameworks to audit mobility and contextual data—and the predictive models built on them—along the dimensions of utility, fairness, and validity before they are trusted in high-stakes settings such as public health and economic policy. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **16 peer-reviewed publications** (10 journal articles, 2 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science, Big Data & Society, and Behavior Research Methods.
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
 
-**[Research Statement](https://drive.google.com/file/d/1hw9sstiK-YFw2EFteq-Bmh79X6d8MP0k/view?usp=drive_link)** | **[Teaching Statement](https://drive.google.com/file/d/1txl38kH9Dk_oeIRI-ZjLNAGXe1g76fDv/view?usp=drive_link)**| **[Academic CV](https://drive.google.com/file/d/16WObxW_atOld2kd7W74lLS8Uqlxeh59r/view?usp=drive_link)**
+**[Dissertation](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01)** | **[Research Statement](https://drive.google.com/file/d/1hw9sstiK-YFw2EFteq-Bmh79X6d8MP0k/view?usp=drive_link)** | **[Teaching Statement](https://drive.google.com/file/d/1txl38kH9Dk_oeIRI-ZjLNAGXe1g76fDv/view?usp=drive_link)** | **[Academic CV](https://drive.google.com/file/d/16WObxW_atOld2kd7W74lLS8Uqlxeh59r/view?usp=drive_link)**
 
 
 # Recent News
 
 <ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">July 2026</span>
+    <span class="news-text">
+      My PhD dissertation, <a href="https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01"><em>Data-Driven Decision-Making for Societal Systems: Auditing Mobility, Contextual Data and Models for High-Stakes Applications</em></a>, is now available on DRUM.
+    </span>
+  </li>
   <li class="news-item">
     <span class="news-date">May 2026</span>
     <span class="news-text">

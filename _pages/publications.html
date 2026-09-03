@@ -60,6 +60,10 @@ author_profile: true
   .badge-book-chapter {
     background-color: #dc2626;
   }
+
+  .badge-preprint {
+    background-color: #6b7280;
+  }
   
   .archive__item-excerpt {
     margin-bottom: 20px;
@@ -111,6 +115,8 @@ author_profile: true
             <span class="pub-type-badge badge-workshop">Workshop</span>
           {% elsif post.type == 'bookchapter' %}
             <span class="pub-type-badge badge-book-chapter">Book Chapter</span>
+          {% elsif post.type == 'preprint' %}
+            <span class="pub-type-badge badge-preprint">Preprint</span>
           {% else %}
             <span class="pub-type-badge" style="background-color:#6b7280;">Other</span>
           {% endif %}

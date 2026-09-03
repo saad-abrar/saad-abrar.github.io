@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 # Introduction
-Hi, I am Saad! I am a **PhD candidate in Computer Science** at the University of Maryland, College Park, working under the supervision of [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) in the [Urban Computing Lab](https://www.urbancomputinglab.org/).
+Hi, I am Saad! I am a **postdoctoral scholar** at UC Santa Barbara in the [Urban Data Research Lab](https://www.urbandataresearchlab.org/), directed by [Dr. Wenfei Xu](https://www.urbandataresearchlab.org/). I completed my Ph.D. in Computer Science at the University of Maryland, College Park, advised by [Dr. Vanessa Frias-Martinez](https://vanessafriasmartinez.umiacs.io/) in the [Urban Computing Lab](https://www.urbancomputinglab.org/).
 
 My research is in general is situated in computational social science, drawing methodologies from machine learning, statistics, and fairness methods. I aim to improve high-stakes decision-making by leveraging behavioral data to build accurate and trustworthy predictive systems.
 
-My dissertation, [*Data-Driven Decision-Making for Societal Systems: Auditing Mobility, Contextual Data and Models for High-Stakes Applications*](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01), develops frameworks to audit mobility and contextual data—and the predictive models built on them—along the dimensions of utility, fairness, and validity before they are trusted in high-stakes settings such as public health and economic policy. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **16 peer-reviewed publications** (10 journal articles, 2 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science, Big Data & Society, and Behavior Research Methods.
+My dissertation, [*Data-Driven Decision-Making for Societal Systems: Auditing Mobility, Contextual Data and Models for High-Stakes Applications*](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01), develops frameworks to audit mobility and contextual data—and the predictive models built on them—along the dimensions of utility, fairness, and validity before they are trusted in high-stakes settings such as public health and economic policy. Through my research, I aim to ensure that data-driven urban computing applications serve all communities equitably while maintaining high predictive performance. My research has led to **17 peer-reviewed publications** (10 journal articles, 3 conference papers, 4 workshop papers) in venues such as PLOS One, EMNLP, International Journal of Social Research Methodology, ACM SIGSPATIAL, Computers Environment and Urban Systems, ACM JCSS, EPJ Data Science, Big Data & Society, and Behavior Research Methods.
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
 
@@ -21,6 +21,24 @@ I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer S
 # Recent News
 
 <ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">September 2026</span>
+    <span class="news-text">
+      I have joined UC Santa Barbara as a postdoctoral scholar in the <a href="https://www.urbandataresearchlab.org/">Urban Data Research Lab</a>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">September 2026</span>
+    <span class="news-text">
+      Paper <a href="https://sigspatial2026.sigspatial.org/research-accepted/">"The Coordinates Were Always There: Detecting and Quantifying Pretraining Contamination from Geospatial Data in LLMs"</a> accepted at <em>ACM SIGSPATIAL '26</em>.
+    </span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">September 2026</span>
+    <span class="news-text">
+      New preprint <a href="https://arxiv.org/pdf/2609.00345">"Do LLMs Know Your Neighborhood? Auditing LLM Priors for Neighborhood-Level Mobility Prediction and Structural Alignment"</a> is now on arXiv.
+    </span>
+  </li>
   <li class="news-item">
     <span class="news-date">July 2026</span>
     <span class="news-text">

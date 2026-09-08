@@ -15,7 +15,7 @@ My dissertation, [*Data-Driven Decision-Making for Societal Systems: Auditing Mo
 
 I completed my M.S. in Computer Science from UMD (2023) and my BSc in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2017.
 
-**[Dissertation](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01)** | **[Research Statement](https://drive.google.com/file/d/1hw9sstiK-YFw2EFteq-Bmh79X6d8MP0k/view?usp=drive_link)** | **[Teaching Statement](https://drive.google.com/file/d/1txl38kH9Dk_oeIRI-ZjLNAGXe1g76fDv/view?usp=drive_link)** | **[Academic CV](https://drive.google.com/file/d/16WObxW_atOld2kd7W74lLS8Uqlxeh59r/view?usp=drive_link)**
+**[Dissertation](https://drum.lib.umd.edu/items/1a60e69d-eb9c-436c-8113-29e6cb8b0e01)** | **[Research Statement](https://drive.google.com/file/d/1hw9sstiK-YFw2EFteq-Bmh79X6d8MP0k/view?usp=drive_link)** | **[Teaching Statement](https://drive.google.com/file/d/1txl38kH9Dk_oeIRI-ZjLNAGXe1g76fDv/view?usp=drive_link)** | **[Academic CV](/files/Saad_Abrar_CV.pdf)**
 
 
 # Recent News
